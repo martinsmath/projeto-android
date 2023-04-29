@@ -30,8 +30,8 @@
     --cor5: #2F523F;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas', cursive;
-    --fonte-android: 'Idroid', cursive;
+    --fonte-destaque: 'Bebas';
+    --fonte-android: 'Idroid';
 }
 
 body {
