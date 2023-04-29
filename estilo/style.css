@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'Bebas';
-    src: url('/fontes/bebasneue.ttf') format('truetype'), url('/fontes/bebasneue.otf') format('opentype');
+    src: url('/fontes/bebasneue.otf') format('truetype'), url('bebasneue.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,9 +29,9 @@
     --cor4: #175231;
     --cor5: #2F523F;
 
-    --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas', cursive, sans-serif;
-    --fonte-android: 'Idroid', cursive, sans-serif;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas', cursive;
+    --fonte-android: 'Idroid', cursive;
 }
 
 body {
@@ -111,7 +111,7 @@ main h1 {
     font-size: 1.8em;
 }
 
-main > h2 {
+main h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
     font-weight: normal;
@@ -120,7 +120,7 @@ main > h2 {
     text-indent: 8px;
 }
 
-main > p {
+main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
