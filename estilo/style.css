@@ -51,7 +51,7 @@ header {
 
 }
 
-header > h1 {
+header h1 {
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 2em;
@@ -60,7 +60,7 @@ header > h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
-header > p {
+header p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color:#ffffff;
@@ -111,7 +111,7 @@ main h1 {
     font-size: 1.8em;
 }
 
-main h2 {
+main > h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
     font-weight: normal;
