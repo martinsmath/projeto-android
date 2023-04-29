@@ -104,14 +104,14 @@ main {
     border-bottom-right-radius: 10px ;
 }
 
-main > h1 {
+main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
 }
 
-main > h2 {
+main h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
     font-weight: normal;
@@ -120,7 +120,7 @@ main > h2 {
     text-indent: 8px;
 }
 
-main > p {
+main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
