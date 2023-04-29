@@ -51,7 +51,7 @@ header {
 
 }
 
-header h1 {
+header > h1 {
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 2em;
@@ -60,7 +60,7 @@ header h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
-header p {
+header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color:#ffffff;
@@ -104,7 +104,7 @@ main {
     border-bottom-right-radius: 10px ;
 }
 
-main h1 {
+main > h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
@@ -120,7 +120,7 @@ main > h2 {
     text-indent: 8px;
 }
 
-main p {
+main > p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
